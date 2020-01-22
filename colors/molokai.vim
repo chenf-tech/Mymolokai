@@ -84,7 +84,7 @@ hi PmenuSbar                     guibg=#080808  " 滚动条
 hi PmenuThumb      guifg=#66D9EF
 
 "hi PreCondit       guifg=#7EC0EE               gui=bold
-hi PreCondit       guifg=#7EC0EE  " 预处理 #if #else等
+hi PreCondit       guifg=#CD5C5C  " 预处理 #if #else等
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 "hi Repeat          guifg=#F92672               gui=bold
