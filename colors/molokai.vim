@@ -109,14 +109,15 @@ hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 "hi StorageClass    guifg=#FD971F               gui=bold
 hi StorageClass    guifg=#FD971F  " static register volatile 关键字
-hi Structure       guifg=#66D9EF
+" hi Structure       guifg=#66D9EF
+hi Structure       guifg=#FF8080   " typedef enum struct 等关键字
 hi Tag             guifg=#F92672               gui=bold
 hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 "hi Typedef         guifg=#66D9EF
 "hi Type            guifg=#66D9EF               gui=none
-hi Typedef         guifg=#BDB76B           " typedef定义等
+hi Typedef         guifg=#BDB76B           " typedef定义的别名
 hi Type            guifg=#BDB76B               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
